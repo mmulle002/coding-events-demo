@@ -7,6 +7,11 @@ import org.springframework.stereotype.Repository;
 /**
  * Created by Chris Bay
  */
+
 @Repository
 public interface EventRepository extends CrudRepository<Event, Integer> {
+
 }
+
+
+
